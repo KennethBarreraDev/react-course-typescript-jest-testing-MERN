@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Asegúrate de que sea ESNext para compatibilidad con `import.meta`
+    "module": "ESNext",  // Asegúrate de que sea ESNext para usar `import.meta`
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM"],  // Asegúrate de que esté configurado para ESNext y DOM
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src", "test", "jest.setup.ts"],
+  "exclude": ["node_modules", "dist"]
+}

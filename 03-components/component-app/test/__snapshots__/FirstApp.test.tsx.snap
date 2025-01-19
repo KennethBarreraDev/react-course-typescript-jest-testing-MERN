@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstApp Component should match snapshot 1`] = `
+<div>
+  <h1>
+    Probe title
+  </h1>
+  <h2>
+    First paragraph
+  </h2>
+  <h3>
+    {"message":"Hello world","title":"A simple message"}
+  </h3>
+</div>
+`;
